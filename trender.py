@@ -1,5 +1,6 @@
 import sys
-from PyQt5.QtWidgets import *
+from PyQt5.QtWidgets import (QWidget, QPushButton,
+    QGridLayout, QApplication, QLabel, QTextBrowser, QSizePolicy)
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 import requests
